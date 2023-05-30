@@ -1,28 +1,20 @@
 import {
+  aws,
   frontend,
   backend,
   ux,
   prototyping,
   javascript,
   typescript,
-  html,
+  python,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   git,
-  figma,
-  docker,
   postgresql,
-  rubyrails,
-  graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  lighthouse,
+  pantheremin,
+  camswitcher,
   coverhunt,
   dcc,
   kelhel,
@@ -31,8 +23,8 @@ import {
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: 'tech',
+    title: 'Skills',
   },
   {
     id: 'projects',
@@ -58,15 +50,27 @@ const services = [
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Software Engineer',
     icon: prototyping,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'Python',
+    icon: python,
+  },
+  {
+    name: 'postgresql',
+    icon: postgresql,
+  },
+  {
+    name: 'git',
+    icon: git,
+  },
+  {
+    name: 'aws',
+    icon: aws,
   },
   {
     name: 'CSS 3',
@@ -85,41 +89,10 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
@@ -156,8 +129,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'LightHouse',
+    description: 'An interactive art installation. A cross between a watchtower and a lighthouse, switching between shining a guiding light and compulsively tracking passersby.',
     tags: [
       {
         name: 'react',
@@ -172,15 +145,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: lighthouse,
+    repo: 'https://github.com/shahar-cohen/LightHouse-art-installation',
+    demo: 'https://youtu.be/Ru6Z45Rh16o',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Pantheremin',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Proximity based arduino MIDI musical device with osc connection to grasshopper for visuals.',
     tags: [
       {
         name: 'react',
@@ -195,14 +168,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: pantheremin,
+    repo: 'https://github.com/shahar-cohen/Pantheremin',
+    demo: 'https://youtu.be/_-8Fbb_CeyA',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'CamSwitcher',
+    description: 'Video control system based on image recognition from live video feed. Made for an installation at the Bauhaus exhibit in the Israel Museum.',
     tags: [
       {
         name: 'nextjs',
@@ -217,54 +190,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: camswitcher,
+    repo: 'https://github.com/shahar-cohen/video-switcher-for-museum-art-installation',
+    demo: 'https://github.com/shahar-cohen/video-switcher-for-museum-art-installation',
   },
 ];
 

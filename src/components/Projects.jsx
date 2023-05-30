@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
-import { github, pineapple, pineappleHover } from '../assets';
+import { github, youtube, youtubeHover } from '../assets';
 import { projects } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 
@@ -75,7 +75,7 @@ const ProjectCard = ({
               font-poppins tracking-[1px]">
               {description}
             </p>
-            <button
+            <button 
               className="live-demo flex justify-between 
               sm:text-[16px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-2 pr-3 
@@ -88,20 +88,20 @@ const ProjectCard = ({
               onMouseOver={() => {
                 document
                   .querySelector('.btn-icon')
-                  .setAttribute('src', pineappleHover);
+                  .setAttribute('src', youtubeHover);
               }}
               onMouseOut={() => {
                 document
                   .querySelector('.btn-icon')
-                  .setAttribute('src', pineapple);
+                  .setAttribute('src', youtube);
               }}>
               <img
-                src={pineapple}
-                alt="pineapple"
+                src={youtube}
+                alt="youtube"
                 className="btn-icon sm:w-[34px] sm:h-[34px] 
                   w-[30px] h-[30px] object-contain"
               />
-              LIVE DEMO
+              DEMO
             </button>
           </div>
         </>
@@ -116,7 +116,6 @@ const Projects = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Case Studies</p>
         <h2 className={`${styles.sectionHeadTextLight}`}>Projects.</h2>
       </motion.div>
 
