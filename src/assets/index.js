@@ -5,7 +5,7 @@ import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
 
-import shahar_photo from './personal/head_shot_isolated_grayscale.png';
+import shaharHeadshot from './personal/head_shot_isolated_grayscale.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -25,15 +25,12 @@ import sendHover from './icons/sendHover.png';
 import aws from './tech/aws.png';
 import css from './tech/css.png';
 import docker from './tech/docker.png';
-import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
 import python from './tech/python.png';
-import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
@@ -53,7 +50,7 @@ export {
   whiteabstract,
   worldmap,
   logo,
-  shahar_photo as shaq,
+  shaharHeadshot,
   backend,
   ux,
   frontend,
@@ -70,7 +67,6 @@ export {
   sendHover,
   css,
   docker,
-  figma,
   git,
   graphql,
   html,
@@ -79,8 +75,6 @@ export {
   postgresql,
   rubyrails,
   reactjs,
-  redux,
-  tailwind,
   typescript,
   lighthouse,
   pantheremin,

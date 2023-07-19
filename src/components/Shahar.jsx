@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { shaharHeadshot, bwmap, worldmap } from '../assets';
 
 const Shahar = () => {
   return (
@@ -79,11 +79,10 @@ const Shahar = () => {
         </div>
         <div>
           <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[67vw] 2xl:ml-[70vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={shaq}
-            alt="shaquille"
+            className="absolute bottom-0 right-0
+            sm:h-[60vh] md:h-[70vh] xl:h-[80vh]"
+            src={shaharHeadshot}
+            alt="Shahar Cohen"
           />
         </div>
       </section>
